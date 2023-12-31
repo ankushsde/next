@@ -30,80 +30,7 @@ export default function Portfolio() {
         </p>
       </section>
 
-      {/* Skills Section */}
-      <section className="mb-8 text-center lg:max-w-5xl lg:w-full lg:mb-0">
-        <h2 className="text-2xl font-semibold mb-4">Skills</h2>
-        <div className="flex justify-center space-x-4">
-          {/* Use Icons8 API for logos */}
-          
-          <Image
-            src={`https://img.icons8.com/color/48/000000/html-5--v1.png`}
-            alt="HTML"
-            width={40}
-            height={40}
-          />
-          <Image
-            src={`https://img.icons8.com/color/48/000000/css3.png`}
-            alt="CSS"
-            width={40}
-            height={40}
-          />
-          <Image
-            src={`https://img.icons8.com/color/48/000000/typescript.png`}
-            alt="TypeScript"
-            width={40}
-            height={40}
-          />
-          <Image
-            src={`https://img.icons8.com/color/48/000000/react-native.png`}
-            alt="React"
-            width={40}
-            height={40}
-          />
-          <Image
-            src={`https://img.icons8.com/plasticine/100/000000/react.png`}
-            alt="React Native"
-            width={40}
-            height={40}
-          />
-        </div>
-      </section>
-
-      {/* Social Profiles Section */}
-      <section className="mb-8 flex justify-center space-x-4">
-        {/* GitHub */}
-        <a
-          href="https://github.com/ankushsde"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={`https://img.icons8.com/color/48/000000/github--v1.png`}
-            alt="GitHub"
-            width={40}
-            height={40}
-          />
-        </a>
- 
-        
-
-        {/* CodeChef */}
-        <a
-          href="https://www.codechef.com/users/ankushs5252"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={`https://img.icons8.com/color/48/000000/codechef.png`}
-            alt="CodeChef"
-            width={40}
-            height={40}
-          />
-        </a>
-
-        {/* AlgoDaily */}
-         
-      </section>
+    
 
       {/* Projects Section */}
       <section className="mb-8 grid grid-cols-1 gap-8 lg:max-w-5xl lg:w-full lg:grid-cols-2">
@@ -118,8 +45,6 @@ export default function Portfolio() {
         </p>
         {/* Add your contact information or social media links */}
       </section>
-
-      
 
       {/* Footer Section */}
       <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
