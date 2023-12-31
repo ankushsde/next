@@ -24,9 +24,9 @@ export default function Portfolio() {
 
       {/* About Me Section */}
       <section className="mb-8 text-center lg:max-w-5xl lg:w-full lg:mb-0">
-        <h1 className="text-4xl font-bold mb-4">Hello, I'm Ankush Singh!</h1>
+        <h1 className="text-4xl font-bold mb-4">Hello, I am Ankush Singh!</h1>
         <p className="text-lg opacity-70">
-          I'm a passionate software developer with expertise in building web applications using technologies like Next.js.
+          I am a passionate software developer with expertise in building web applications using technologies like Next.js.
         </p>
       </section>
 
@@ -39,9 +39,9 @@ export default function Portfolio() {
 
       {/* Contact Section */}
       <section className="text-center lg:max-w-5xl lg:w-full">
-        <h2 className="text-2xl font-semibold mb-4">Let's Connect!</h2>
+        <h2 className="text-2xl font-semibold mb-4">Connect with me!</h2>
         <p className="opacity-70 mb-6">
-          If you're interested in collaborating or have any questions, feel free to reach out to me.
+          If you are interested in collaborating or have any questions, feel free to reach out to me.
         </p>
         {/* Add your contact information or social media links */}
       </section>
