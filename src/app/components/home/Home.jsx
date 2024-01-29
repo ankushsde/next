@@ -10,7 +10,8 @@ import Image from "next/image";
 const Home = () => {
   return (
     <section className="home" id="home">
-      <div className="home__container container">
+     <div className="home__wrapper">
+     <div className="home__container container">
         <p className="home__subtitle text-cs">
           Hello, <span>My Name Is</span>
         </p>
@@ -51,7 +52,9 @@ const Home = () => {
             </span>
           </p>
 
-          {/* <Image src={shape1} alt="" className="shape shape__1" /> */}
+          <Image src={shape1} alt="" className="shape shape__1" />
+          <Image src={shape1} alt="" className="shape shape__2" />
+          <Image src={shape1} alt="" className="shape shape__3" />
 
         </div>
 
@@ -81,6 +84,7 @@ const Home = () => {
           </a>
         </div>
       </div>
+     </div>
     </section>
   );
 };
