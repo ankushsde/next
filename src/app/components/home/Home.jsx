@@ -56,8 +56,8 @@ const Home = () => {
         </div>
 
         <p className="home__text">
-          From Himachal Pradesh,India. I have rich expereince in Software
-          Development, also I'm good at providing full stack devlopment
+          From Himachal Pradesh, India. I have rich expereince in Software
+          Development, also I am good at providing full stack devlopment
           solutions.
         </p>
 
